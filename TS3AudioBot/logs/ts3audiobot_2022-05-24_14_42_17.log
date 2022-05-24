@@ -1,0 +1,19 @@
+2022-05-24 14:42:17.3963| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 14:42:17.4393| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 14:42:17
+2022-05-24 14:42:17.5321| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 14:42:17.5336| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 14:42:17.5336| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 14:42:17.5336| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 14:42:17.5336| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 14:42:17.5336| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 14:42:18.1413| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 14:42:18.3211| WARN|Core|ConfRoot.GetBotConfig Failed to load bot config "default"
+System.InvalidOperationException: Cannot define table with key 'Nett.Parser.Builders.KeyChain' as the owner already contains a row for key 'events' of type 'table'.
+   at Nett.Parser.Builders.TableBuilder.CreateStandardTable(RootTable root, StandardTableNode table, IHasComments comments)
+   at Nett.Parser.Builders.TableBuilder.CreateTableOrArrayOfTables(RootTable root, TableNode table)
+   at Nett.Parser.Builders.TableBuilder.Build(StartNode node, TomlSettings settings)
+   at Nett.StreamTomlSerializer.Deserialize(Stream s, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath)
+   at TS3AudioBot.Config.ConfigEnumerable.Load[T](String path) in C:\projects\ts3audiobot\TS3AudioBot\Config\ConfigEnumerable.cs:line 139
+2022-05-24 14:42:25.1086|ERROR|Core|BotManager.RunBots Could not save new bot. Ensure that the bot has access to the directory.

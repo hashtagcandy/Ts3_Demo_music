@@ -1,0 +1,14 @@
+2022-05-24 13:22:38.1787| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 13:22:38.2313| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 13:22:38
+2022-05-24 13:22:38.3325| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 13:22:38.3325| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 13:22:38.3325| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 13:22:38.3325| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 13:22:38.3325| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 13:22:38.3325| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 13:22:39.0034| WARN|Core|RightsManager.CreateConfigIfNotExists No permission file found.
+2022-05-24 13:24:42.5718| INFO|Core|RightsManager.CreateConfig Creating new permission file ({"AdminUids":["mYp4BG3liFyLI2IcQSCZvZI4IY4="], "OverwriteIfExists":false})
+2022-05-24 13:24:42.6181| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 13:26:38.9272| INFO|Core|Bot.Run Bot "default" connecting to "152.70.76.198:9987"
+2022-05-24 13:26:39.5366| INFO|Core|Ts3Client.ConnectClient Client connected.
+2022-05-24 13:31:26.7883| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.help

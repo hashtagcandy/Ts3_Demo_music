@@ -1,0 +1,17 @@
+2022-05-24 13:47:49.4951| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 13:47:49.5362| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 13:47:49
+2022-05-24 13:47:49.6241| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 13:47:49.6241| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 13:47:49.6241| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 13:47:49.6277| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 13:47:49.6277| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 13:47:49.6277| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 13:47:50.2200| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 13:47:50.4395| INFO|Core|Bot.Run Bot "default" connecting to "152.70.76.198:9987"
+2022-05-24 13:47:51.1255| INFO|Core|Ts3Client.ConnectClient Client connected.
+2022-05-24 13:49:25.7616| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !bot.setup
+2022-05-24 13:49:36.5476| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !.setup
+2022-05-24 13:49:36.5998|ERROR|0|RightsManager.ReadFile <bot> Field has invalid data.
+2022-05-24 13:49:55.5715| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !bot setup
+2022-05-24 13:49:55.5715|ERROR|0|RightsManager.ReadFile <bot> Field has invalid data.
+2022-05-24 13:50:03.6784| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.bot.setup
