@@ -1,0 +1,28 @@
+2022-05-24 14:47:05.0396| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 14:47:05.0864| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 14:47:05
+2022-05-24 14:47:05.1904| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 14:47:05.1904| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 14:47:05.1904| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 14:47:05.1904| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 14:47:05.1904| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 14:47:05.1904| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 14:47:05.8015| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 14:47:06.0225| INFO|Core|Bot.Run Bot "default" connecting to "152.70.76.198:9987"
+2022-05-24 14:47:06.5939| INFO|Core|Ts3Client.ConnectClient Client connected.
+2022-05-24 14:47:18.5902| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !bot setup
+2022-05-24 14:47:18.6527|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.
+2022-05-24 14:47:25.8351| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.bot.setup
+2022-05-24 14:47:41.6819| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.bot.setup bot.toml
+2022-05-24 14:47:41.6819|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.
+2022-05-24 14:47:53.2168| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree
+2022-05-24 14:48:08.8057| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree right!
+2022-05-24 14:48:08.8057|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.
+2022-05-24 14:48:11.3286| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree right
+2022-05-24 14:48:11.3333|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.
+2022-05-24 14:48:21.3527| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree help
+2022-05-24 14:48:21.3527|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.
+2022-05-24 14:48:31.1610| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.version
+2022-05-24 14:49:51.8129| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.help onconnect
+2022-05-24 14:49:51.8161|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.
+2022-05-24 14:50:08.7551| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree event
+2022-05-24 14:50:08.7551|ERROR|0|RightsManager.ReadFile Unrecognized key <events>.

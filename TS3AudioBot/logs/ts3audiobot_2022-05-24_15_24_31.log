@@ -1,0 +1,79 @@
+2022-05-24 15:24:31.9795| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 15:24:32.0289| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 15:24:32
+2022-05-24 15:24:32.1323| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 15:24:32.1323| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 15:24:32.1323| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 15:24:32.1323| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 15:24:32.1323| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 15:24:32.1323| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 15:24:32.8452| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 15:24:33.0910| INFO|Core|Bot.Run Bot "default" connecting to "152.70.76.198:9987"
+2022-05-24 15:24:33.7733| INFO|Core|Ts3Client.ConnectClient Client connected.
+2022-05-24 15:25:22.0286| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !bot setup fUbYgWciOYcEF2LuDnOOMFcJZ3RHSr4GcWz5n9JD
+2022-05-24 15:25:22.0765|ERROR|0|RightsManager.ReadFile The rights file could not be parsed
+Nett.Parser.ParseException: Line 45, column 23: String 'C:\Program Files\youtube-dl' contains the invalid escape sequence '\P'.
+   at Nett.StringExtensions.<>c__DisplayClass4_0.<Unescape>b__0(Match m)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Nett.StringExtensions.Unescape(String src, Token tkn)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValueFromTerminal|1(Token terminal)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValue|0(TerminalNode tn)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateInlineTable|3(InlineTableNode it)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.Build(StartNode node, TomlSettings settings)
+   at Nett.StreamTomlSerializer.Deserialize(Stream s, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath, TomlSettings settings)
+   at TS3AudioBot.Rights.RightsManager.ReadFile() in C:\projects\ts3audiobot\TS3AudioBot\Rights\RightsManager.cs:line 244
+2022-05-24 15:25:32.6000| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.bot.setup fUbYgWciOYcEF2LuDnOOMFcJZ3RHSr4GcWz5n9JD
+2022-05-24 15:25:32.6000|ERROR|0|RightsManager.ReadFile The rights file could not be parsed
+Nett.Parser.ParseException: Line 45, column 23: String 'C:\Program Files\youtube-dl' contains the invalid escape sequence '\P'.
+   at Nett.StringExtensions.<>c__DisplayClass4_0.<Unescape>b__0(Match m)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Nett.StringExtensions.Unescape(String src, Token tkn)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValueFromTerminal|1(Token terminal)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValue|0(TerminalNode tn)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateInlineTable|3(InlineTableNode it)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.Build(StartNode node, TomlSettings settings)
+   at Nett.StreamTomlSerializer.Deserialize(Stream s, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath, TomlSettings settings)
+   at TS3AudioBot.Rights.RightsManager.ReadFile() in C:\projects\ts3audiobot\TS3AudioBot\Rights\RightsManager.cs:line 244
+2022-05-24 15:25:49.8713| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree.bot.setup fUbYgWciOYcEF2LuDnOOMFcJZ3RHSr4GcWz5n9JD
+2022-05-24 15:25:49.8713|ERROR|0|RightsManager.ReadFile The rights file could not be parsed
+Nett.Parser.ParseException: Line 45, column 23: String 'C:\Program Files\youtube-dl' contains the invalid escape sequence '\P'.
+   at Nett.StringExtensions.<>c__DisplayClass4_0.<Unescape>b__0(Match m)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Nett.StringExtensions.Unescape(String src, Token tkn)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValueFromTerminal|1(Token terminal)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValue|0(TerminalNode tn)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateInlineTable|3(InlineTableNode it)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.Build(StartNode node, TomlSettings settings)
+   at Nett.StreamTomlSerializer.Deserialize(Stream s, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath, TomlSettings settings)
+   at TS3AudioBot.Rights.RightsManager.ReadFile() in C:\projects\ts3audiobot\TS3AudioBot\Rights\RightsManager.cs:line 244
+2022-05-24 15:25:56.1024| INFO|0|Bot.OnMessageReceived User rocket_chele requested: !cmd.command.tree cmd.bot.setup fUbYgWciOYcEF2LuDnOOMFcJZ3RHSr4GcWz5n9JD
+2022-05-24 15:25:56.1024|ERROR|0|RightsManager.ReadFile The rights file could not be parsed
+Nett.Parser.ParseException: Line 45, column 23: String 'C:\Program Files\youtube-dl' contains the invalid escape sequence '\P'.
+   at Nett.StringExtensions.<>c__DisplayClass4_0.<Unescape>b__0(Match m)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Nett.StringExtensions.Unescape(String src, Token tkn)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValueFromTerminal|1(Token terminal)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValue|0(TerminalNode tn)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateInlineTable|3(InlineTableNode it)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.Build(StartNode node, TomlSettings settings)
+   at Nett.StreamTomlSerializer.Deserialize(Stream s, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath, TomlSettings settings)
+   at TS3AudioBot.Rights.RightsManager.ReadFile() in C:\projects\ts3audiobot\TS3AudioBot\Rights\RightsManager.cs:line 244

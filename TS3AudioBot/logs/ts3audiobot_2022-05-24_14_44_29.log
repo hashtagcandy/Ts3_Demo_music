@@ -1,0 +1,24 @@
+2022-05-24 14:44:29.9341| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 14:44:29.9780| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 14:44:29
+2022-05-24 14:44:30.0695| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 14:44:30.0695| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 14:44:30.0695| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 14:44:30.0695| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 14:44:30.0695| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 14:44:30.0695| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 14:44:30.6671| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 14:44:30.8374| WARN|Core|ConfRoot.GetBotConfig Failed to load bot config "default"
+Nett.Parser.ParseException: Line 27, column 8: String 'C:\ts3withoutdocker\TS3AudioBot\rights.toml' contains the invalid escape sequence '\T'.
+   at Nett.StringExtensions.<>c__DisplayClass4_0.<Unescape>b__0(Match m)
+   at System.Text.RegularExpressions.Regex.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Nett.StringExtensions.Unescape(String src, Token tkn)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValueFromTerminal|1(Token terminal)
+   at Nett.Parser.Builders.TableBuilder.<>c__DisplayClass6_0.<ToTomlValue>g__CreateValue|0(TerminalNode tn)
+   at Nett.Parser.Builders.TableBuilder.ToTomlValue(ITomlRoot root, ValueNode node)
+   at Nett.Parser.Builders.TableBuilder.Build(StartNode node, TomlSettings settings)
+   at Nett.StreamTomlSerializer.Deserialize(Stream s, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath, TomlSettings settings)
+   at Nett.Toml.ReadFile(String filePath)
+   at TS3AudioBot.Config.ConfigEnumerable.Load[T](String path) in C:\projects\ts3audiobot\TS3AudioBot\Config\ConfigEnumerable.cs:line 139

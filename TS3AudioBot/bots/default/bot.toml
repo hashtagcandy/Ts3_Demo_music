@@ -1,0 +1,50 @@
+#Starts the instance when the TS3AudioBot is launched.
+run = true
+
+[rights]
+path = "rights.toml"
+
+[commands]
+
+[commands.alias]
+
+[connect]
+#The server password. Leave empty for none.
+server_password = { pw = "" }
+#The default channel password. Leave empty for none.
+channel_password = {  }
+#Overrides the displayed version for the ts3 client. Leave empty for default.
+client_version = {  }
+#The address, ip or nickname (and port; default: 9987) of the TeamSpeak3 server
+address = "152.70.76.198:9987"
+
+[connect.identity]
+#||| DO NOT MAKE THIS KEY PUBLIC ||| The client identity. You can import a teamspeak3 identity here too.
+key = "MCoDAgbAAgEgAiEAjBin2WZ7u3f/2RdR3kqG9EiGXMTMOiBiYWsv+npazD4="
+#The client identity offset determining the security level.
+offset = 120
+
+[reconnect]
+
+[[rule]]
+# Add your uid to the matcher.
+# You can add multiple uids which this rule should match on.
+useruid = ["mYp4BG3liFyLI2IcQSCZvZI4IY4=", "AnotherOnesUid"]
+# The "+" permissions will be added when this rule matches.
+"+" = ["cmd.play", "cmd.some.other.command", "cmd.bot.commander.on", "cmd.whisper.*", "*"]
+
+[audio]
+#When a new song starts the volume will be trimmed to between min and max.
+#When the current volume already is between min and max nothing will happen.
+#To completely or partially disable this feature, set min to 0 and/or max to 100.
+volume = {  }
+
+[playlists]
+
+[history]
+
+[events]
+#Called when the bot is connected.
+onconnect = "Hello"
+#Called when the bot gets disconnected.
+ondisconnect = "Bye"

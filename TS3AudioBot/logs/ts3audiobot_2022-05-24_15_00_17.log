@@ -1,0 +1,11 @@
+2022-05-24 15:00:17.3616| INFO|Core|Setup.LogHeader [============ TS3AudioBot started =============]
+2022-05-24 15:00:17.4185| INFO|Core|Setup.LogHeader [ Date: Tuesday, 24 May 2022 15:00:17
+2022-05-24 15:00:17.5179| INFO|Core|Setup.LogHeader [ Version: 0.12.2/master/4c6be036
+2022-05-24 15:00:17.5179| INFO|Core|Setup.LogHeader [ Build: Release
+2022-05-24 15:00:17.5179| INFO|Core|Setup.LogHeader [ Platform: Windows 6.2.9200.0 (64bit)
+2022-05-24 15:00:17.5179| INFO|Core|Setup.LogHeader [ Runtime: .NET Framework 3.1.13 ServerGC:True GC:SustainedLowLatency
+2022-05-24 15:00:17.5179| INFO|Core|Setup.LogHeader [ Opus: libopus 1.2.1-fixed (x64)
+2022-05-24 15:00:17.5179| INFO|Core|Setup.LogHeader [==============================================]
+2022-05-24 15:00:18.1360| INFO|Core|WebServer.StartWebServerInternal Starting Webserver on port 58913
+2022-05-24 15:00:18.3636| INFO|Core|Bot.Run Bot "default" connecting to "152.70.76.198:9987"
+2022-05-24 15:00:18.9427| INFO|Core|Ts3Client.ConnectClient Client connected.
